@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>this is css painting</title>
+
+<meta name="descripton" content="&#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/iehacks.css"><![endif]-->
+<style media="screen">
+	body {
+		background : #333;
+		font-family: monospace;
+		color:#D4C2AE;
+		text-shadow: 2px 2px #ff0000;
+	}
+	#rug {
+		/*D4C2AE*/
+		margin-left:150px;
+		background: #DA252D;
+		border: 1px dotted #e22227;
+	}
+	#shortcut {
+		list-style-type:lower-alpha;
+	}
+	#INFO {
+	}
+	p { margin:0; padding:2px; }
+	a {
+		color: rgb(000,185,210);	}
+/*Selects the 2nd list item, and every 4th list item after that:*/
+li:nth-child(4n+2) {
+	background: #FCB64C;
+}
+/*Expression: 5n-1
+Selects the -1st list item, and every 5th list item after that. 
+*/
+li:nth-child(5n-1) {
+	background: #E22227;
+}
+/*
+Expression: -2n+7
+In this example, the “b” part is given a negative integer. This will select the 7th list item and then every -2nd list item after that. This means that no list items will be selected after the 7th one. But instead, after selecting the 7th one, the count will reverse and go back up the list, selecting every 2nd element.
+*/
+li:nth-child(-2n+7) {
+	background: #C27D19;
+}
+/*
+Expression: 4n+7
+This one uses the “nth-last-child” pseudo-class, which means the expression starts at the bottom of the list. This will select the 7th-last list item (i.e. 7th from the bottom of the list) and every 4th-last list item after that.
+*/
+li:nth-last-child(4n+7) {
+	background: #CBB67E;
+}
+/*
+
+Expression: 3n-2
+we’re using “nth-last-child”, but this time we’re combining it with a negative integer. This example selects the -2nd-last list item (meaning you have to imagine a “ghost” zero item along with 2 other “ghost” elements) and every 3rd-last list item.
+*/
+li:nth-last-child(3n-2) {
+	background: #6F4040;
+}
+/*
+Expression: 5n+3
+the “nth-of-type” pseudo-class. This means only the referenced element will be included in the expression. In this case, we’re targeting paragraph elements. So this will select the third paragraph element then every 5th paragraph after that.
+
+*/
+p:nth-of-type(5n+5) {
+	background: #c8A66a;
+	font-family:sans-serif;
+}
+p:nth-of-type(5n+4) {
+	background: #c0D66C;
+}
+p:nth-of-type(5n+3) {
+	background: #FCB64C;
+}
+p:nth-of-type(5n+2) {
+	background: #FCB03C;
+}
+p:nth-of-type(5n+1) {
+	background: #c0B03C;
+}
+/*
+Expression: 2n+8
+This example uses “nth-last-of-type”, which selects the last element of that type of element. In this case, we’re targeting <div> elements. So all other elements will be ignored, even if they are in between. This will select the 8th-last <div> element, and every 2nd last <div> element after that.
+*/
+div:nth-last-of-type(2n+8) {
+	background: #2D4034;
+}
+
+
+	</style>
+		<link rel="stylesheet" href="print.css" type='text/css' media="print" />
+</head>
+
+<body>
+<div id="rug" style="width: 830px;">
+<div id="chart_div" style="width:750px; height: 24px;opacity: 0.5;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+
+<div id="chart_div" style="width: 480px; height: 24px; color:#562379;background-color:#794613;opacity: 0.6;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width:750px; height: 24px; color:#562379;background-color:#794813;">edited with vim</div>
+<div id="chart_div" style="width:750px; height: 24px; color:#562379;background-color:#795213;opacity: 0.7;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width:750px; height: 24px; color:#562379;background-color:#795513;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width:750px; height: 24px; color:#562379;background-color:#794613;opacity: 0.8;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width:750px; height: 24px; color:#562379;background-color:#794313;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width:750px; height: 24px; color:#562379;background-color:#794013;opacity: 0.9;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width:750px; height: 24px; color:#562379;background-color:#793713;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width:750px; height: 24px; color:#562379;background-color:#794613;opacity: 0.3;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<ol id='shortcut'>
+	<li><a href='http://891.be'>Mosque Carpet</a></li>
+	<li><a href='http://891.be/'>891_ projects</a></li>
+	<li><a href='#'>Handmade rug</a></li>
+	<li><a href='#'>vimperized</a></li>
+	<li><a href='#'>a different sensory experience</a></li>
+	<li><a href='#'>The wool fibers are thin and there is no hair</a></li>
+	<li><a href='#'>Mosque Carpet</a></li>
+	<li><a href='#'>891_ projects</a></li>
+	<li><a href='#'>Handmade rug</a></li>
+	<li><a href='#'>made in Belgium</a></li>
+	<li><a href='#'>a different sensory experience</a></li>
+	<li><a href='#'>The wool fibers are thin and there is no hair</a></li>
+	
+<h2>891_ projects</h2>
+<div id="chart_div" style="width: 400px; height: 24px;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="INFO" style="background-color: #524E4E; color: rgb(000,185,210)">891<blink>_</blink></div>
+
+<p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p><p style="text-align: center;"> CSS tapis plein is adaptive with regards to open applicationsÂ <br />and &#8776;&#8776;&#8776; &#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#8773;&#916;&#916;&#916;&#916;&#916;&#916;&#916;&#916;-&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#920;&#926;&#926;&#926;&#926;&#926; &#926;&#926;&#926;&#931; &#931;&#931;&#931;&#931;&#931;&#952; &#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;&#952;.</p>
+<div id="chart_div" style="width: 750px; height: 24px; background: linear-gradient(45deg, #f06, #ffe647);">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;background: linear-gradient(45deg, #f06, #ffe647);">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;background: linear-gradient(45deg, #f06, #ffe647);">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;background: linear-gradient(45deg, #f06, #ffe647);">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;background: linear-gradient(45deg, #f06, #ffe647);">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;background: linear-gradient(45deg, #f06, #ffe647);">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+<div id="chart_div" style="width: 750px; height: 24px;">&#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801;the art#8801; art of css rugs </div>
+
+</div>
+</body>
+</html>
