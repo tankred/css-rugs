@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 
+## [0.8.1] - 2018-10-08
+### Changed
+- added micro-reset-css CDN
+- https://github.com/vladocar/CSS-Micro-Reset
+
 ## [0.8] - 2018-01-04
 ### Added
 - CHANGELOG.md
