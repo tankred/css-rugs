@@ -1,0 +1,23 @@
+{
+  "name": "css-rugs",
+  "version": "1.0.0",
+  "description": "css rugs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tankred/css-rugs.git"
+  },
+  "keywords": [
+    "css",
+    "lab"
+  ],
+  "author": "tankred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tankred/css-rugs/issues"
+  },
+  "homepage": "https://github.com/tankred/css-rugs#readme"
+}
