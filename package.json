@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/tankred/css-rugs#readme",
   "devDependencies": {
-    "cypress": "^3.2.0"
+    "cypress": "^3.3.1"
   },
   "dependencies": {
     "lodash": "^4.17.11"
