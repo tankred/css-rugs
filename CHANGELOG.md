@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [Released]
+
+## [0.8.2] - 2019-12-12
+### Changed
+- Update cypress
 
 ## [0.8.1] - 2018-10-08
 ### Changed
