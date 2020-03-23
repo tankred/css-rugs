@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.9.1] - 2020-03-23
+### Changed
+- Installed minimist npm package
+
 ## [Released]
 
 ## [0.9.0] - 2020-03-23
