@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Released]
 
+## [0.9.0] - 2020-03-23
+### Changed
+- Bump version to 0.9.0
+
+## [0.8.3] - 2020-03-23
+### Changed
+- Update cypress
+ 
 ## [0.8.2] - 2019-12-12
 ### Changed
 - Update cypress
