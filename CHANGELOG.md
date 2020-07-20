@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [Released]
+
+## [1.0.0] - 2020-07-20
+### Changed
+- Fix lodash security update (dependabot)
+
 ## [0.9.3] - 2020-06-22
 ### Changed
 - switched to ssh (remote origin)
@@ -18,8 +24,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.9.1] - 2020-03-23
 ### Changed
 - Installed minimist npm package
-
-## [Released]
 
 ## [0.9.0] - 2020-03-23
 ### Changed
