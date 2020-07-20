@@ -9,6 +9,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Released]
 
+## [1.0.0] - 2020-07-20
+### Changed
+- Fix lodash security update (dependabot)
+
+## [0.9.3] - 2020-06-22
+### Changed
+- switched to ssh (remote origin)
+
+## [0.9.2] - 2020-05-11
+### Changed
+- {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }} {{ base_url }} {{ base_url  }}
+
+## [0.9.1] - 2020-03-23
+### Changed
+- Installed minimist npm package
+
 ## [0.9.0] - 2020-03-23
 ### Changed
 - Bump version to 0.9.0
