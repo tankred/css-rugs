@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [1.0.1] - 2020-07-20
+### Changed
+- Bump package version to 1.0.1
+
 ## [Released]
 
 ## [1.0.0] - 2020-07-20
