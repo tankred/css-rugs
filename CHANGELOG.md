@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Released]
 
+## [1.1.0] - 2020-12-17
+### Changed
+- Fix ini security update (dependabot)
+
 ## [1.0.0] - 2020-07-20
 ### Changed
 - Fix lodash security update (dependabot)
