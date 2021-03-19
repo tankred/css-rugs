@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.2.0] - 2021-03-19
 ### Changed
 - Rename master branch to main
+- Move rug to src/
 
 ## [1.1.2] - 2020-12-17
 ### Changed
