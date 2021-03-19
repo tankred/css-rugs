@@ -7,15 +7,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [Released]
+## [1.2.0] - 2021-03-19
+### Changed
+- Rename master branch to main
+- Move rug to src/
 
-## [1.1.0] - 2020-12-17
+## [1.1.2] - 2020-12-17
 ### Changed
 - Fix ini security update (dependabot)
+
+## [1.1.1] - 2020-07-20
+### Changed
+- Bump package version to 1.0.1
 
 ## [1.0.0] - 2020-07-20
 ### Changed
 - Fix lodash security update (dependabot)
+- Bump lodash from 4.17.15 to 4.17.19 (#5)
 
 ## [0.9.3] - 2020-06-22
 ### Changed
