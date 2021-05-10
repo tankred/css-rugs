@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2021-05-10
+### Changed
+- Npm audit fix
+
 ## [1.2.0] - 2021-03-19
 ### Changed
 - Rename master branch to main
