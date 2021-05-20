@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [Released]
+
+## [1.4.0] - 2021-05-20
+### Changed
+- Bump version to 1.4.0
+
 ## [1.3.1] - 2021-05-20
 ### Changed
 - Sec. fix lodash upgrade to lodash-4.17.21
