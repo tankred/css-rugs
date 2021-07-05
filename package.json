@@ -1,11 +1,10 @@
 {
   "name": "css-rugs",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "css rugs - painting with css",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:run": "cypress run"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,9 +20,6 @@
     "url": "https://github.com/tankred/css-rugs/issues"
   },
   "homepage": "https://github.com/tankred/css-rugs#readme",
-  "devDependencies": {
-    "cypress": "^4.2.0"
-  },
   "dependencies": {
     "lodash": "^4.17.21",
     "minimist": "^1.2.3"
