@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Released]
 
+## [1.5.0] - 2023-10-31
+### Changed
+- Update minimist
+
 ## [1.4.0] - 2021-05-20
 ### Changed
 - Bump version to 1.4.0
