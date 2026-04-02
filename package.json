@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/tankred/css-rugs#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
+    "lodash": "^4.18.1",
     "minimist": "^1.2.8"
   }
 }
